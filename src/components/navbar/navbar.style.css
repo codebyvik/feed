@@ -1,0 +1,33 @@
+.navbar {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.navbar .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container .hamburger {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.logo-container .logo {
+  width: 7rem;
+}
+
+.navbar .user-profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    width: 60%;
+  }
+}
